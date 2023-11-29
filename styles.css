@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d2b48c;
+}
+
+header, footer {
+    background: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f0e4d8;
+}
+
+h1 {
+    margin: 0;
+}
+
+.book-container {
+    background: #f0e4d8;
+    padding: 20px;
+    margin: 20px auto;
+    border: 10px solid #8b4513;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #8b4513;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background: #f0e4d8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+section:hover {
+    background: #e3d1b7;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+#CurrentEffortsinIndia img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;  
+}
+
+#CurrentEffortsinIndia figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.expanded {
+    max-height: 500px;
+    overflow: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #8b4513;
+    padding: 10px 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.footer-visible {
+    display: block;
+}
+
+#conclusion {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #8b4513;
+    background: #f0e4d8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#conclusion p {
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#CurrentEffortsinIndia table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#CurrentEffortsinIndia th, #CurrentEffortsinIndia td {
+    border: 1px solid #8b4513;
+    padding: 10px;
+    text-align: left;
+}
+
+#CurrentEffortsinIndia th {
+    background-color: #8b4513;
+    color: white;
+}
+
+#CurrentEffortsinIndia caption {
+    caption-side: top;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
